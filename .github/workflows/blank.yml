@@ -28,3 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: test bash
         run: source ubuntu-22.04/.bashrc
+
+      - name: tree
+        run: tree /
